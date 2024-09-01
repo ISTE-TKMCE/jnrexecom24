@@ -26,7 +26,7 @@ export default function RegistrationPage2() {
     } else {
       setVisible(true);
       await axios
-        .post("/api/test", user)
+        .post("https://istejnrexecom24.vercel.app/api/test", user)
         .then((res) => setSubmit(res.data.result), setError(false));
     }
   }
