@@ -17,7 +17,7 @@ export default function Admin() {
   async function handlesubmit() {
     setLoading(true);
     await axios
-      .post("https://istejnrexecom24.vercel.app/api/LgXZXiCvQSqzOwA", accesskey)
+      .post("/api/LgXZXiCvQSqzOwA", accesskey)
       .then((res) => setRes(res.data.data), console.log(response));
     setLoading(false);
   }
