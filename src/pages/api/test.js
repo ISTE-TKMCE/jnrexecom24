@@ -3,7 +3,8 @@ import prisma from "../../../lib/prisma";
 export default async function handler(req, res) {
   if (req.method == "POST") {
     try {
-      const user = req.body;
+      const user1 = req.body;
+      console.log(user1)
       const checkIfExist = await prisma.user.findUnique({
         where: {
           email: req.body.email,
