@@ -4,7 +4,7 @@ const prisma = new PrismaClient();
 
 export default async function handler(req, res) {
   if (req.method == "POST") {
-    if (req.body.key != "aravindpoliya") {
+    if (req.body.key != "hello123") {
       res.status(200).json({ data: "wrong key" });
     } else {
       try {

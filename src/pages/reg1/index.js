@@ -57,7 +57,7 @@ export default function RegistrationPage1() {
         <input type="text" name="batch" onChange={handlechange} />
       </div>
       <div className="m-2  w-48 text-right ">
-        <a onClick={handlenext} className="flex justify-center p-2 border-3 rounded-xl font-bold font-montserrat  bg-[#3C4DA5] ">
+        <a onClick={handlenext} className="flex justify-center p-2 border-3 rounded-xl font-bold font-montserrat  bg-[#3C4DA5] cursor-pointer">
           <span className="cursor-pointer ">Next</span>
           <span className="">
             <img src="Expand_right.png" className="w-6" />

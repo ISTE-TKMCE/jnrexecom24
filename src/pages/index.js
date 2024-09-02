@@ -33,12 +33,10 @@ export default function Home() {
           <button onClick={() => setModal4(true)}>DOCUMENTATION</button>
           <button onClick={() => setModal5(true)}>REGISTRATION</button>
           <button onClick={() => setModal6(true)}>FINANCE TEAM</button>
-          <button onClick={() => setModal7(true)}>UI/UX DESIGNER</button>
           <button onClick={() => setModal8(true)}>DESIGN TEAM</button>
           <button onClick={() => setModal9(true)}>OPERATIONS</button>
           <button onClick={() => setModal10(true)}>VIDEO EDITOR</button>
           <button onClick={() => setModal11(true)}>TECH TEAM</button>
-          <button onClick={() => setModal12(true)}>WEB TEAM</button>
         </div>
         <button
           className="mt-10 font-montserrat font-bold"
@@ -142,7 +140,7 @@ export default function Home() {
             this is the post for you!
           </p>
         </Dialog>
-        <Dialog
+        {/* <Dialog
           header="UI/UX Designer"
           visible={modal7}
           onHide={() => setModal7(false)}
@@ -155,7 +153,7 @@ export default function Home() {
             an opportunity to expand your design skills and knowledge and to
             explore your ability.
           </p>
-        </Dialog>
+        </Dialog> */}
         <Dialog
           header="Design Team"
           visible={modal8}
@@ -213,7 +211,7 @@ export default function Home() {
             train!
           </p>
         </Dialog>
-        <Dialog
+        {/* <Dialog
           header="Web Team"
           visible={modal12}
           onHide={() => setModal12(false)}
@@ -227,7 +225,7 @@ export default function Home() {
             If you have good programming skills and design approach, feel free
             to join us.
           </p>
-        </Dialog>
+        </Dialog> */}
       </main>
     </>
   );
