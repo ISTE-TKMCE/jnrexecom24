@@ -4,7 +4,7 @@ export default function Footer() {
       <div className=" font-bold">CONTACT</div>
       <div className="grid grid-cols-2 gap-5 font-normal ">
         <div className="flex-col"><div>Devakrishna A S  </div><div>7736784259</div></div>
-        <div className="flex-col"><div>Ajay Raj</div><div>7994415131</div></div>
+        <div className="flex-col"><div>Ajay Raju</div><div>7994415131</div></div>
       </div>
     </div>
   );
