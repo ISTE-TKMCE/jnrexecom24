@@ -47,12 +47,10 @@ export default function RegistrationPage2() {
           <option value={"DOCUMENTATION"}>DOCUMENTATION</option>
           <option value={"REGISTRATION"}>REGISTRATION</option>
           <option value={"FINANCE TEAM"}>FINANCE TEAM</option>
-          <option value={"UI/UX DESIGNER"}>UI/UX DESIGNER</option>
           <option value={"DESIGN TEAM"}>DESIGN TEAM</option>
           <option value={"OPERATIONS"}>OPERATIONS</option>
           <option value={"VIDEO EDITOR"}>VIDEO EDITOR</option>
           <option value={"TECH TEAM"}>TECH TEAM</option>
-          <option value={"WEB TEAM"}>WEB TEAM</option>
         </select>
       </div>
       <div className="m-2">
@@ -69,12 +67,10 @@ export default function RegistrationPage2() {
           <option value={"DOCUMENTATION"}>DOCUMENTATION</option>
           <option value={"REGISTRATION"}>REGISTRATION</option>
           <option value={"FINANCE TEAM"}>FINANCE TEAM</option>
-          <option value={"UI/UX DESIGNER"}>UI/UX DESIGNER</option>
           <option value={"DESIGN TEAM"}>DESIGN TEAM</option>
           <option value={"OPERATIONS"}>OPERATIONS</option>
           <option value={"VIDEO EDITOR"}>VIDEO EDITOR</option>
           <option value={"TECH TEAM"}>TECH TEAM</option>
-          <option value={"WEB TEAM"}>WEB TEAM</option>
         </select>
       </div>
       <div className="m-2">
@@ -91,12 +87,10 @@ export default function RegistrationPage2() {
           <option value={"DOCUMENTATION"}>DOCUMENTATION</option>
           <option value={"REGISTRATION"}>REGISTRATION</option>
           <option value={"FINANCE TEAM"}>FINANCE TEAM</option>
-          <option value={"UI/UX DESIGNER"}>UI/UX DESIGNER</option>
           <option value={"DESIGN TEAM"}>DESIGN TEAM</option>
           <option value={"OPERATIONS"}>OPERATIONS</option>
           <option value={"VIDEO EDITOR"}>VIDEO EDITOR</option>
           <option value={"TECH TEAM"}>TECH TEAM</option>
-          <option value={"WEB TEAM"}>WEB TEAM</option>
         </select>
       </div>
 
