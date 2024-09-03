@@ -16,7 +16,7 @@ const Excelsheet = ({excelData, fileName}) => {
 
     return(
         <>
-            <button onClick={exportToExcel} className='m-2'>
+            <button onClick={exportToExcel} className='m-2 bg-[#1E2A5E]'>
                 Download
             </button>
         </>
