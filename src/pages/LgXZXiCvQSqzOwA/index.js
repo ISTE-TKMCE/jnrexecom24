@@ -22,7 +22,9 @@ export default function Admin() {
     setLoading(false);
   }
   return (
-    <div className="grid justify-items-center w-screen ">
+    <div className={`grid justify-items-center ${
+      response ? "min-h-screen min-w-screen" : "min-h-screen"
+    }`}>
       <div>
         <input type="password" className="m-1" onChange={handlechange}></input>
         <button className="m-1 bg-[#1E2A5E]" onClick={handlesubmit}>
