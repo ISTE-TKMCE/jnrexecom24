@@ -5,7 +5,23 @@ export default function Navbar() {
         <h1 className="text-6xl">ISTE</h1>
         <h2 className="text-2xl">TKMCE</h2>
       </div>
-      <img src="logo.png" className="opacity-30 w-56 relative left-16 " ></img>
+      <img
+        src="logo.png"
+        className="opacity-30 w-56 relative left-16"
+        style={{
+          animation: "spin-slow 10s linear infinite",
+        }}
+      />
+      <style jsx>{`
+        @keyframes spin-slow {
+          from {
+            transform: rotate(0deg);
+          }
+          to {
+            transform: rotate(360deg);
+          }
+        }
+      `}</style>
     </div>
   );
 }

@@ -95,7 +95,7 @@ export default function RegistrationPage2() {
       </div>
 
       <div className="m-2 ">
-        <button onClick={handlesubmit}>Confirm</button>
+        <button onClick={handlesubmit} className="bg-[#1E2A5E]">Confirm</button>
       </div>
       {error ? (
         <div className="text-red-600 text-sm animate-pulse">

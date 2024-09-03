@@ -25,21 +25,21 @@ export default function Home() {
         </h2>
         <h3 className="text-xs">ELIGIBLE ONLY FOR SECOND YEARS</h3>
         <div className="grid grid-cols-2 gap-3 mt-14 font-bold text-sm md:text-base mx-3 font-montserrat">
-          <button onClick={() => setModal1(true)}>PROGRAM COORDINATOR</button>
-          <button onClick={() => setModal2(true)}>
+          <button onClick={() => setModal1(true)} className="bg-[#55679C]">PROGRAM COORDINATOR</button>
+          <button onClick={() => setModal2(true)} className="bg-[#55679C]">
             STUDENT REPRESENTATIVE
           </button>
-          <button onClick={() => setModal3(true)}>PUBLIC RELATIONS</button>
-          <button onClick={() => setModal4(true)}>DOCUMENTATION</button>
-          <button onClick={() => setModal5(true)}>REGISTRATION</button>
-          <button onClick={() => setModal6(true)}>FINANCE TEAM</button>
-          <button onClick={() => setModal8(true)}>DESIGN TEAM</button>
-          <button onClick={() => setModal9(true)}>OPERATIONS</button>
-          <button onClick={() => setModal10(true)}>VIDEO EDITOR</button>
-          <button onClick={() => setModal11(true)}>TECH TEAM</button>
+          <button onClick={() => setModal3(true)} className="bg-[#55679C]">PUBLIC RELATIONS</button>
+          <button onClick={() => setModal4(true)} className="bg-[#55679C]">DOCUMENTATION</button>
+          <button onClick={() => setModal5(true)} className="bg-[#55679C]">REGISTRATION</button>
+          <button onClick={() => setModal6(true)} className="bg-[#55679C]">FINANCE TEAM</button>
+          <button onClick={() => setModal8(true)} className="bg-[#55679C]">DESIGN TEAM</button>
+          <button onClick={() => setModal9(true)} className="bg-[#55679C]">OPERATIONS</button>
+          <button onClick={() => setModal10(true)} className="bg-[#55679C]">VIDEO EDITOR</button>
+          <button onClick={() => setModal11(true)} className="bg-[#55679C]">TECH TEAM</button>
         </div>
         <button
-          className="mt-10 font-montserrat font-bold"
+          className="register mt-10 font-montserrat font-bold "
           onClick={() => router.push("/reg1")}
         >
           REGISTER

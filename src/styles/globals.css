@@ -4,8 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.register{
+  background-color: #1E2A5E;
+}
 button {
-  @apply [background:linear-gradient(180deg,_#4156c2,_rgba(65,_86,_194,_0.6)_90.63%,_rgba(65,_86,_194,_0.33)_99.99%,_rgba(65,_86,_194,_0))];
   @apply p-3;
   @apply rounded-xl;
   @apply hover:scale-105;

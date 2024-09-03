@@ -28,19 +28,19 @@ export default function RegistrationPage1() {
     <div className=" grid justify-items-center">
       <div className="m-2">
         <div>Name</div>
-        <input type="text" name="name" onChange={handlechange} />
+        <input type="text" name="name" onChange={handlechange} className="border-[#1E2A5E] border-4 border-solid  rounded-lg" />
       </div>
       <div className="m-2">
         <div>Email</div>
-        <input type="text" name="email" onChange={handlechange} />
+        <input type="text" name="email" onChange={handlechange} className="border-[#1E2A5E] border-4 border-solid  rounded-lg"/>
       </div>
       <div className="m-2">
         <div>Phone</div>
-        <input type="text" name="phone" onChange={handlechange} />
+        <input type="text" name="phone" onChange={handlechange} className="border-[#1E2A5E] border-4 border-solid  rounded-lg " />
       </div>
-      <div className="m-2">
+      <div className="m-2 ">
         <div>Department</div>
-        <select name="dept" onChange={handlechange}>
+        <select name="dept" onChange={handlechange} className="border-4 border-solid  rounded-lg border-[#1E2A5E]">
           <option disabled selected="true">SELECT</option>
           <option value={"chemical"}>Chemical</option>
           <option value={"cs"}>Computer Science</option>
@@ -54,10 +54,10 @@ export default function RegistrationPage1() {
       </div>
       <div className="m-2">
         <div><span>Batch</span><span className="text-gray-300 text-xs"> (eg:R3A)</span></div>
-        <input type="text" name="batch" onChange={handlechange} />
+        <input type="text" name="batch" onChange={handlechange} className="border-[#1E2A5E] border-4 border-solid  rounded-lg" />
       </div>
       <div className="m-2  w-48 text-right ">
-        <a onClick={handlenext} className="flex justify-center p-2 border-3 rounded-xl font-bold font-montserrat  bg-[#3C4DA5] cursor-pointer">
+        <a onClick={handlenext} className="flex justify-center p-2 border-3 rounded-xl font-bold font-montserrat  bg-[#1E2A5E] cursor-pointer">
           <span className="cursor-pointer ">Next</span>
           <span className="">
             <img src="Expand_right.png" className="w-6" />
