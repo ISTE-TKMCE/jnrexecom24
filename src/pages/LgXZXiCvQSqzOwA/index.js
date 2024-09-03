@@ -22,10 +22,10 @@ export default function Admin() {
     setLoading(false);
   }
   return (
-    <div className="grid justify-items-center bg-">
+    <div className="grid justify-items-center w-screen ">
       <div>
         <input type="password" className="m-1" onChange={handlechange}></input>
-        <button className="m-1" onClick={handlesubmit}>
+        <button className="m-1 bg-[#1E2A5E]" onClick={handlesubmit}>
           submit
         </button>
       </div>
@@ -33,7 +33,7 @@ export default function Admin() {
       <div className="bg-gradient-to-b from-[#3e55cd] to-[#1c2033] grid justify-items-center">
         {response && <Excelsheet excelData={response} fileName={"Excel Export"}/>}
         {response ? (
-          <table className="table-auto border-collapse ">
+          <table className="table-auto border-collapse w-fit">
             <thead>
               <tr>
                 <th>Name</th>
